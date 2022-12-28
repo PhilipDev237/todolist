@@ -14,6 +14,7 @@ USAGE:
 - Go to the master branch
 - Download the zip file
 - Unzip the file and navigate to the file location in your command prompt
+- Run npm init to download the node_modules
 - Run npm install to download the required dependencies
 - Run your MongoDB database
 - Copy your DB  url
