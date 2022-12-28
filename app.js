@@ -1,5 +1,4 @@
 //jshint esversion:6
-
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
@@ -7,7 +6,7 @@ const _ = require("lodash");
 
 const app = express();
 
-const url = "mongodb+srv://admin-philip:ox3HhhNMWtbmevob@cluster0.3qjttdf.mongodb.net/todolistDB";
+const url = "YOUR_MONGODB_DB_URL";
 
 // connect to mongodb 
 mongoose.connect(url);
